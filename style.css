@@ -1,0 +1,388 @@
+/* geral */
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: #e73334;
+    margin-bottom: -10px;
+}
+
+body, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+html {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1900px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1900px) {
+    body {
+        width: 1900px;
+        ;
+    }
+}
+
+/* layout header */
+
+header {
+    background-image: url('images/remove-these-two-guys-20043815.png');
+    background-size: cover;
+    background-position: 57%;
+    height: 400px;
+    width: 100%;
+}
+
+@media (min-width: 1800px) {
+    header {
+        height: 600px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    
+}
+
+
+header h2 {
+    color: white;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    color: white;
+
+}
+
+#upNext {
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
+    width: 100%;
+    margin-left: -370px;
+    text-align: center;
+}
+
+@media (min-width: 1800px) {
+    #upNext {
+        margin-left: -770px; 
+        margin-top: 50px;       
+    }
+    
+}
+
+#comprarIngressos {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+#bandLogo {
+    width: 150px;
+    margin-bottom: -20px;
+}
+
+@media (min-width: 1800px) {
+    #bandLogo {
+        width: 220px;          
+    }
+    
+}
+
+#loja {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 75px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* layout main */
+
+main > section {
+    height: 300px;
+}
+
+@media (min-width: 1800px) {
+    main > section {
+        height: 500px;
+    }
+}
+
+#mainDiv1 {
+    background-color: #e73334;
+    display: flex;
+}
+
+/* #mainDiv1 > div {
+    width: 100%;
+    height: 100%;
+} */
+
+.blank {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#div1Img {
+    width: 100%;
+    top: 50%;
+    clip-path: polygon(0% -100%, 100% 0%, 75% 100%, 0 100%);
+}
+
+@media (min-width: 1800px) {
+    #mainDiv1 > .blank {
+        position: relative;   
+    }
+}
+
+@media (min-width: 1800px) {
+    #div1Img {
+        position: absolute;
+        top: -250px;   
+    }
+}
+
+.news {
+    display: flex;;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+@media (min-width: 1800px) {
+    .news {
+        justify-content: center;
+        padding: 100px;
+    }
+}
+
+#newsBtn {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #e73334;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+@media (min-width: 1800px) {
+    #newsBtn {
+        margin-top: 30px;
+        height: 60px;
+    }
+}
+
+#mainDiv2 {
+    background-image: url('images/crowded-rock-bar-dark-environment-black-and-white-383976913.png');
+    display: flex;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+@media (min-width: 1800px) {
+    #mainDiv2 {
+        align-items: center;
+    }
+}
+
+.ingressoInfo {
+    flex: 0 0 auto;
+    /* width: 300px;
+    height: 100%; */
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 10px double white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    background-color: black;
+    width: 500px;
+
+}
+
+@media (min-width: 1800px) {
+    .ingressoInfo {
+        height: 300px;
+        justify-content: center;
+    }
+}
+
+.ingressoInfo h2 {
+    color: #e73334;
+    margin-bottom: -10px;
+}
+
+.ingressoInfo h3 {
+    margin-bottom: -5px;
+
+}
+
+#mainDiv3 {
+    display: flex;
+    background-color: #e73334;
+    display: flex;
+}
+
+#mainDiv3 > .blank {
+    background-image: url('images/sert.jpg');
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 100% 500%);
+    
+
+}
+
+@media (min-width: 1800px) {
+    #mainDiv3 > .blank {
+        width: 150%;
+
+    }
+}
+
+.upcomingEvents {
+    display: flex;;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-end;
+    width: 250%;
+
+}
+
+@media (min-width: 1800px) {
+    .upcomingEvents {
+        justify-content: center;
+    }
+}
+
+.upcomingEvents a {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#mainDiv4 {
+    display: flex;
+    position: relative;
+}
+
+#mainDiv4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #000000 40%, rgba(255, 0, 0, 0)), url('images/black-gradient-left-to-right-741057654.png');
+    background-position: center;
+    background-size: cover;
+    z-index: 50;
+}
+
+#aboutTheBand {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    z-index: 50;
+    padding-left: 125px;
+    padding-right: 30px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#aboutTheBand h2 {
+    margin: 0;
+}
+  
+
+#mainDiv4 div {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* footer  */
+
+footer {
+    background-color: #e73334;
+    display: flex;
+    height: 75px;
+}
+
+footer div {
+    width: 100%;
+    text-align: center;
+}
+    
+
+#icons {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#icons img {
+    width: 10%;
+    height: 60%;
+}
+
+@media (min-width: 1800px) {
+    #icons img {
+        width: 5%;
+    }
+}
+
+
+
