@@ -37,18 +37,7 @@ body {
     padding: 0;
 }
 
-@media (max-width: 1900px) {
-    body {
-        width: 100%;
-    }
-}
 
-@media (min-width: 1900px) {
-    body {
-        width: 1900px;
-        ;
-    }
-}
 
 /* layout header */
 
@@ -60,14 +49,7 @@ header {
     width: 100%;
 }
 
-@media (min-width: 1800px) {
-    header {
-        height: 600px;
-        background-size: cover;
-        background-position: 100%;
-    }
-    
-}
+
 
 
 header h2 {
@@ -92,13 +74,6 @@ nav {
     text-align: center;
 }
 
-@media (min-width: 1800px) {
-    #upNext {
-        margin-left: -770px; 
-        margin-top: 50px;       
-    }
-    
-}
 
 #comprarIngressos {
     border: 2px solid white;
@@ -116,12 +91,7 @@ nav {
     margin-bottom: -20px;
 }
 
-@media (min-width: 1800px) {
-    #bandLogo {
-        width: 220px;          
-    }
-    
-}
+
 
 #loja {
     border: 2px solid black;
@@ -140,11 +110,7 @@ main > section {
     height: 300px;
 }
 
-@media (min-width: 1800px) {
-    main > section {
-        height: 500px;
-    }
-}
+
 
 #mainDiv1 {
     background-color: #e73334;
@@ -168,18 +134,7 @@ main > section {
     clip-path: polygon(0% -100%, 100% 0%, 75% 100%, 0 100%);
 }
 
-@media (min-width: 1800px) {
-    #mainDiv1 > .blank {
-        position: relative;   
-    }
-}
 
-@media (min-width: 1800px) {
-    #div1Img {
-        position: absolute;
-        top: -250px;   
-    }
-}
 
 .news {
     display: flex;;
@@ -191,12 +146,7 @@ main > section {
     justify-content: flex-end;
 }
 
-@media (min-width: 1800px) {
-    .news {
-        justify-content: center;
-        padding: 100px;
-    }
-}
+
 
 #newsBtn {
     border: 2px solid white;
@@ -211,12 +161,7 @@ main > section {
     
 }
 
-@media (min-width: 1800px) {
-    #newsBtn {
-        margin-top: 30px;
-        height: 60px;
-    }
-}
+
 
 #mainDiv2 {
     background-image: url('images/crowded-rock-bar-dark-environment-black-and-white-383976913.png');
@@ -227,11 +172,7 @@ main > section {
     
 }
 
-@media (min-width: 1800px) {
-    #mainDiv2 {
-        align-items: center;
-    }
-}
+
 
 .ingressoInfo {
     flex: 0 0 auto;
@@ -250,12 +191,7 @@ main > section {
 
 }
 
-@media (min-width: 1800px) {
-    .ingressoInfo {
-        height: 300px;
-        justify-content: center;
-    }
-}
+
 
 .ingressoInfo h2 {
     color: #e73334;
@@ -281,12 +217,7 @@ main > section {
 
 }
 
-@media (min-width: 1800px) {
-    #mainDiv3 > .blank {
-        width: 150%;
 
-    }
-}
 
 .upcomingEvents {
     display: flex;;
@@ -300,11 +231,7 @@ main > section {
 
 }
 
-@media (min-width: 1800px) {
-    .upcomingEvents {
-        justify-content: center;
-    }
-}
+
 
 .upcomingEvents a {
     color: black;
@@ -378,6 +305,404 @@ footer div {
     height: 60%;
 }
 
+
+
+/* media queries general */
+
+@media (max-width: 1900px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1900px) {
+    body {
+        width: 1900px;
+        ;
+    }
+}
+
+
+/* media queries mobile portrait */
+
+@media (max-width: 610px) {
+    header {
+        height: 400px;
+        background-size: cover;
+        
+    }
+    
+}
+
+@media (max-width: 610px) {
+    #upNext {
+        margin-left: 0px; 
+        margin-top: -50px;
+        background-color: black;
+        width:        
+    }
+    
+}
+
+@media (max-width: 610px) {
+    #bandLogo {
+        width: 100px;
+        margin-top: 70px;          
+    }
+    
+}
+
+@media (max-width: 610px) {
+    .blank {
+        display: none;         
+    }
+    
+}
+
+@media (max-width: 610px) {
+    main > section {
+        height: 400px;
+    }
+}
+
+@media (max-width: 610px) {
+    #mainDiv1 > .blank {
+        position: relative;   
+    }
+}
+
+@media (max-width: 610px) {
+    #div1Img {
+        position: absolute;
+        top: -20px;   
+    }
+}
+
+@media (max-width: 610px) {
+    .news {
+        justify-content: center;
+        padding: 100px;
+    }
+}
+
+@media (max-width: 610px) {
+    #newsBtn {
+        margin-top: 30px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 610px) {
+    #mainDiv2 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 610px) {
+    .ingressoInfo {
+        height: 200px;
+        justify-content: center;
+        width: 300px;
+    }
+}
+
+@media (max-width: 610px) {
+    #mainDiv3 > .blank {
+        width: 150%;
+
+    }
+}
+
+@media (max-width: 610px) {
+    .upcomingEvents {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 610px) {
+    #icons img {
+        width: 15%;
+    }
+}
+
+/* media queries mobile landscape */
+
+@media (min-width: 610px) and (max-width: 940px) {
+    header {
+        height: 400px;
+        background-size: cover;
+        
+    }
+    
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #upNext {
+        margin-left: -35%; 
+        margin-top: -50px;
+    }
+    
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #bandLogo {
+        width: 100px;
+        margin-top: 70px;          
+    }
+    
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    .blank {
+        width: 500%;       
+    }
+    
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    main > section {
+        height: 400px;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #mainDiv1 > .blank {
+        position: relative;   
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #div1Img {
+        position: absolute;
+        top: -20px;   
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    .news {
+        justify-content: center;
+        padding: 100px;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #newsBtn {
+        margin-top: 30px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #mainDiv2 {
+        align-items: center;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    .ingressoInfo {
+        height: 200px;
+        justify-content: center;
+        width: 300px;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #mainDiv3 > .blank {
+        
+
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    .upcomingEvents {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 940px) {
+    #icons img {
+        width: 50px;
+    }
+}
+
+
+
+/* media queries laptop */
+
+@media (min-width: 1280px) {
+    header {
+        height: 500px;
+        background-size: cover;
+        
+    }
+    
+}
+
+@media (min-width: 1280px) {
+    #upNext {
+        margin-left: -480px; 
+        margin-top: 0px;       
+    }
+    
+}
+
+@media (min-width: 1280px) {
+    #bandLogo {
+        width: 220px;          
+    }
+    
+}
+
+@media (min-width: 1280px) {
+    main > section {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #mainDiv1 > .blank {
+        position: relative;   
+    }
+}
+
+@media (min-width: 1280px) {
+    #div1Img {
+        position: absolute;
+        top: -20px;   
+    }
+}
+
+@media (min-width: 1280px) {
+    .news {
+        justify-content: center;
+        padding: 100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #newsBtn {
+        margin-top: 30px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1280px) {
+    #mainDiv2 {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    .ingressoInfo {
+        height: 300px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    #mainDiv3 > .blank {
+        width: 150%;
+
+    }
+}
+
+@media (min-width: 1280px) {
+    .upcomingEvents {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1280px) {
+    #icons img {
+        width: 8%;
+    }
+}
+
+/* media queries desktop */
+
+@media (min-width: 1800px) {
+    header {
+        height: 600px;
+        background-size: cover;
+        background-position: 100%;
+    }
+    
+}
+
+@media (min-width: 1800px) {
+    #upNext {
+        margin-left: -770px; 
+        margin-top: 50px;       
+    }
+    
+}
+
+@media (min-width: 1800px) {
+    #bandLogo {
+        width: 220px;          
+    }
+    
+}
+
+@media (min-width: 1800px) {
+    main > section {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1800px) {
+    #mainDiv1 > .blank {
+        position: relative;   
+    }
+}
+
+@media (min-width: 1800px) {
+    #div1Img {
+        position: absolute;
+        top: -250px;   
+    }
+}
+
+@media (min-width: 1800px) {
+    .news {
+        justify-content: center;
+        padding: 100px;
+    }
+}
+
+@media (min-width: 1800px) {
+    #newsBtn {
+        margin-top: 30px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1800px) {
+    #mainDiv2 {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1800px) {
+    .ingressoInfo {
+        height: 300px;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1800px) {
+    #mainDiv3 > .blank {
+        width: 150%;
+
+    }
+}
+
+@media (min-width: 1800px) {
+    .upcomingEvents {
+        justify-content: center;
+    }
+}
+
 @media (min-width: 1800px) {
     #icons img {
         width: 5%;
@@ -385,4 +710,8 @@ footer div {
 }
 
 
-
+@media (max-width: 737px) {
+    #div1Img {
+        width: 200%;
+    }
+}
