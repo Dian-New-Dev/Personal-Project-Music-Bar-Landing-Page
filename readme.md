@@ -3,4 +3,4 @@
 - Inspiração do layout e design: https://br.pinterest.com/pin/664984701260912821/.
 - Tecnologias usadas: HTML, CSS e JS.
 
-![Preview](.images/screenshot.jpg)
+![Preview](images/screenshot.jpg)
