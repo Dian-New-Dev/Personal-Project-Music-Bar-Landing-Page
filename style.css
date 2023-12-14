@@ -65,6 +65,12 @@ nav {
 
 }
 
+nav > a:hover {
+    color: black;
+}
+
+
+
 #upNext {
     /* display: flex;
     flex-direction: column; */
@@ -86,6 +92,15 @@ nav {
 
 }
 
+#comprarIngressos:hover {
+    height: 60px;
+    width: 160px;
+    border-radius: 25px;
+    margin-top: -2px;
+
+}
+
+
 #bandLogo {
     width: 150px;
     margin-bottom: -20px;
@@ -102,6 +117,13 @@ nav {
     width: 75px;
     text-align: center;
     font-weight: 600;
+}
+
+#loja:hover {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    
 }
 
 /* layout main */
@@ -146,8 +168,6 @@ main > section {
     justify-content: flex-end;
 }
 
-
-
 #newsBtn {
     border: 2px solid white;
     border-radius: 20px;
@@ -157,8 +177,12 @@ main > section {
     width: 200px;
     height: 100px;
     text-align: center;
-    font-weight: 600;
-    
+    font-weight: 600;   
+}
+
+#newsBtn:hover {
+    background-color: white;
+    color: #e73334;
 }
 
 
